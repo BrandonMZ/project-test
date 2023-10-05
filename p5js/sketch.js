@@ -1,16 +1,18 @@
-let click;
+var meow;
 
 
 function preload(){
-        click = loadSound("../template/media/audio/click.mp3");
+        
+        meow = loadSound("../template/media/audio/meow.wav");
+
 }
 
 
 function setup(){
-        click.setVolume(1);
-        getAudioContext().resume();
+        meow.setVolume(1);
+        meow.play();
 }
 
 function mousePressed(){
-        click.play();
+        meow.play();
 }
