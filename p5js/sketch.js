@@ -1,11 +1,14 @@
-var click;
+let click;
+
 
 function preload(){
-        click=loadSound(template/media/audio/mouse-click.mp3);
+        click = loadSound("../template/media/audio/click.mp3");
 }
 
+
 function setup(){
-        click.setVolume(0.5);
+        click.setVolume(1);
+        getAudioContext().resume();
 }
 
 function mousePressed(){
