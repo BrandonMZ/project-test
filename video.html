@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .cloud {
+      position: absolute;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 100px;
+      height: 50px;
+      animation: moveCloud 10s linear infinite alternate;
+    }
+
+    @keyframes moveCloud {
+      from {
+        left: -50px;
+      }
+      to {
+        left: calc(100% + 50px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cloud"></div>
+
+  <!-- Add more cloud elements as needed -->
+  <!-- <div class="cloud"></div> -->
+
+</body>
+</html>
