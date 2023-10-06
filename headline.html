@@ -12,7 +12,7 @@
             <h1>SGR</h1>
             <nav>
                 <ul>
-                    <li><a id="homeButton" href="../index.html">Back</a></li>
+                    <li><a id="homeButton" href="#">Back</a></li>
                     <li><a href="../review.html">News</a></li>
                     <!-- Add other navigation links if needed -->
                 </ul>
@@ -25,6 +25,13 @@
             <p>&copy; 2000 SGR. All rights reserved.</p>
         </footer>
     </div>
+
+    <script>
+        document.getElementById("homeButton").addEventListener("click", function() {
+            window.history.back();
+        });
+    </script>
+
     <p><b class = "games"> Other Games That We Thought Were Cool! </b></p>
     <img class="gameimage" src="template/media/images/wwe.jpg" >
     <p><b class="sent"> WWF No Mercy (2000) </b></p>
