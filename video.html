@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="template/css/video.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
       overflow: hidden;
+      background-color: #87CEEB;
     }
 
     .cloud {
@@ -18,21 +20,44 @@
       animation: moveCloud 10s linear infinite alternate;
     }
 
+    .cloud1 { animation-delay: 2s; }
+    .cloud2 { animation-delay: 4s; }
+    .cloud3 { animation-delay: 6s; }
+
     @keyframes moveCloud {
-      from {
-        left: -50px;
-      }
-      to {
-        left: calc(100% + 50px);
-      }
+      from { left: -100px; }
+      to { left: calc(100% + 100px); }
     }
   </style>
 </head>
 <body>
-  <div class="cloud"></div>
+  <div class="cloud cloud1"></div>
+  <div class="cloud cloud2"></div>
+  <div class="cloud cloud3"></div>
+  <p class="head">SGR - Your Source for Video Game News</p>
+  <div class="container">
+      <header>
+          <h1>SGR</h1>
+          <nav>
+              <ul>
+                  <li><a id="homeButton" href="../index.html">Back</a></li>
+                  <li><a href="../review.html">News</a></li>
+                  <!-- Add other navigation links if needed -->
+              </ul>
+          </nav>
+      </header>
 
-  <!-- Add more cloud elements as needed -->
-  <!-- <div class="cloud"></div> -->
+      <!-- Your main content goes here -->
+
+      <footer>
+          <p>&copy; 2000 SGR. All rights reserved.</p>
+      </footer>
+  </div>
+
+  <p class="text">Daily Video News</p>
+  <iframe class="video" width="400" height="315" src="https://www.youtube.com/embed/PVQLGBet_ME?si=wWocHor9G-Cr4GmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="400" height="315" src="https://www.youtube.com/embed/X7ExlcASWIc?si=L1q_fHVq5DdEBYN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="400" height="315" src="https://www.youtube.com/embed/ARKs6BxKnAI?si=N49r6v1yM3jPmRaW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </body>
 </html>
