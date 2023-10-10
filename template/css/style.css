@@ -4,6 +4,8 @@ body {
     padding: 0;
     background-color: white;
     color: black;
+    background-image:'template/media/images/ackground image.jpeg';
+    
 }
 
 .container {
