@@ -91,3 +91,16 @@ p{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.icon{
+    height: auto;
+    display: block;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: solid;
+    border-radius: 500px;
+    border-color: #46a6ff;
+    border-width: 10px;
+
+}

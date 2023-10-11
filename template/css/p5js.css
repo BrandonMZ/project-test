@@ -111,3 +111,16 @@ p{
     text-decoration: underline;
 
 }
+
+.icon{
+    height: auto;
+    display: block;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: solid;
+    border-radius: 500px;
+    border-color: #46a6ff;
+    border-width: 10px;
+
+}
